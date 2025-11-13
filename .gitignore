@@ -1,34 +1,66 @@
-# Gradle files
+##########################
+## Java
+##########################
+*.class
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+##########################
+## Gradle
+##########################
+gradlew
+gradlew.bat
+gradle
 .gradle/
 build/
+settings.gradle
+.gradletasknamecache
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
+##########################
+## IntelliJ
+##########################
 *.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.ipr
+*.iws
+out/
+.idea_modules/
 
-# Keystore files
-*.jks
-*.keystore
+##########################
+## Eclipse
+##########################
+.metadata
+.classpath
+.project
+.settings/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+##########################
+## NetBeans
+##########################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
 
-# Android Profiling
-*.hprof
+### Maven ###
+#############
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.ja
+
+#####Relatórios######
+
+Report/*
